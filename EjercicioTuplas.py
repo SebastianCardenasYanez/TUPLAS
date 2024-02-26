@@ -1,0 +1,6 @@
+informacion = tuple((input("ingrese su primer nombre: "), input("Segundo nombre: "), input("Apellidos: ")))
+direccion = tuple((input("ingrese su direccion: "), input("barrio: "), input("ciudad: ")))
+infoProfesional = tuple((input("ingrese su informacion profesional: "), input("años de experiencia: ")))
+educacion = tuple((input("ingrese su educacion: "), input("nombre de la institucion: "), input("nota global: ")))
+datos = tuple((informacion, infoProfesional, direccion, educacion))
+print ("sus datos son: ", datos)
